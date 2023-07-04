@@ -5,12 +5,18 @@ export default function Search() {
   return (
     <>
       <div>
-      <Head>
-                <title>ConnectCorp | Search</title>
-                <meta charSet='utf-8' />
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></link>
-            </Head>
+        <Head>
+          <title>ConnectCorp | Search</title>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+          ></link>
+        </Head>
         <nav class="bg-white">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
@@ -121,7 +127,7 @@ export default function Search() {
                       id="industries"
                       class="bg-white border border-white text-gray-900 text-sm rounded-lg block w-full p-2.5 "
                     >
-                      <option defaultValue>Choose a country</option>
+                      <option defaultValue>Choose Industries</option>
                       <option value="FE">Frontend</option>
                       <option value="DB">Database</option>
                       <option value="BE">Backend</option>
@@ -154,14 +160,14 @@ export default function Search() {
                           </div>
                         </div>
                       </a>
-                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                      <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Fulltime
                         </a>
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Intermediate
                         </a>
-                      </nav>
+                      </div>
 
                       <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
                         Kharghar, Navi Mumbai
@@ -186,14 +192,14 @@ export default function Search() {
                           </div>
                         </div>
                       </a>
-                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                      <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Fulltime
                         </a>
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Intermediate
                         </a>
-                      </nav>
+                      </div>
 
                       <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
                         Kharghar, Navi Mumbai
@@ -218,14 +224,14 @@ export default function Search() {
                           </div>
                         </div>
                       </a>
-                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                      <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Fulltime
                         </a>
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Intermediate
                         </a>
-                      </nav>
+                      </div>
 
                       <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
                         Kurla, Mumbai
@@ -247,14 +253,14 @@ export default function Search() {
                           </div>
                         </div>
                       </a>
-                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                      <div class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Fulltime
                         </a>
                         <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
                           Intermediate
                         </a>
-                      </nav>
+                      </div>
 
                       <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
                         Bangalore
