@@ -50,7 +50,7 @@ export default function Search() {
                 Empowering Individuals to Connect with Leading Companies
               </div>
             </div>
-            <div className="pb-12 px-12">
+            <div className="pb-12 px-1 sm:px-12">
               <div
                 class="bg-white items-center justify-between w-full flex rounded-full shadow-lg p-2 mb-5 sticky"
                 styles="top: 5px"
@@ -73,6 +73,192 @@ export default function Search() {
             </div>
           </div>
         </section>
+        <div class="bg-white py-6 sm:py-8 lg:py-12">
+          <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
+              <div>
+                <div class="rounded-lg border p-4">
+                  <h2 class="mb-3 text-base font-bold text-gray-800 lg:text-base">
+                    Filters
+                  </h2>
+                  <h2 class="mb-3 text-base font-bold text-gray-800 lg:text-base">
+                    Location
+                  </h2>
+                  <input
+                    type="text"
+                    id="location"
+                    class="bg-white border border-white text-gray-900 text-sm rounded-lg block w-full p-2.5 "
+                    placeholder="Location..."
+                    required
+                  ></input>
+                  <h2 class="mb-3 mt-4 text-base font-bold text-gray-800 lg:text-base">
+                    Type of Work
+                  </h2>
+                  <div>
+                    <select
+                      id="location"
+                      class="bg-white border border-white text-gray-900 text-sm rounded-lg block w-full p-2.5 "
+                    >
+                      <option selected>Choose a country</option>
+                      <option value="US">United States</option>
+                      <option value="IN">India</option>
+                      <option value="FR">France</option>
+                      <option value="DE">Germany</option>
+                    </select>
+                  </div>
+                  <h2 class="mb-3 mt-4 text-base font-bold text-gray-800 lg:text-base">
+                    Industries
+                  </h2>
+                  <div>
+                    <select
+                      id="industries"
+                      class="bg-white border border-white text-gray-900 text-sm rounded-lg block w-full p-2.5 "
+                    >
+                      <option defaultValue>Choose a country</option>
+                      <option value="FE">Frontend</option>
+                      <option value="DB">Database</option>
+                      <option value="BE">Backend</option>
+                    </select>
+                  </div>
+                  <label class="relative inline-flex items-center mb-5 cursor-pointer mt-4">
+                    <input type="checkbox" value="" class="sr-only peer" />
+                    <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-violet-600 after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#E4E4E7]"></div>
+                    <span class="ml-3 text-sm font-medium text-[#71717A]">
+                      Only Remote
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="lg:col-span-2">
+                <div class="divide-y">
+                  <div class="flex flex-col gap-3 py-2 md:py-2 bg-white rounded-lg">
+                    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <div class="flex items-center space-x-4">
+                          <img
+                            class="w-10 h-10 rounded-full"
+                            src="https://xsgames.co/randomusers/assets/avatars/male//2.jpg"
+                            alt=""
+                          />
+                          <div class="font-semibold text-black">
+                            <div>Varun Ghorpade</div>
+                            <div class="text-sm text-[#BCC2D2] ">Analyst</div>
+                          </div>
+                        </div>
+                      </a>
+                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Fulltime
+                        </a>
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Intermediate
+                        </a>
+                      </nav>
+
+                      <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
+                        Kharghar, Navi Mumbai
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex flex-col gap-3 py-2 md:py-2 bg-white rounded-lg">
+                    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <div class="flex items-center space-x-4">
+                          <img
+                            class="w-10 h-10 rounded-full"
+                            src="https://xsgames.co/randomusers/assets/avatars/male//3.jpg"
+                            alt=""
+                          />
+                          <div class="font-semibold text-black">
+                            <div>Tanmay Bagal</div>
+                            <div class="text-sm text-[#BCC2D2] ">
+                              UI Designer
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Fulltime
+                        </a>
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Intermediate
+                        </a>
+                      </nav>
+
+                      <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
+                        Kharghar, Navi Mumbai
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex flex-col gap-3 py-2 md:py-2 bg-white rounded-lg">
+                    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <div class="flex items-center space-x-4">
+                          <img
+                            class="w-10 h-10 rounded-full"
+                            src="https://xsgames.co/randomusers/assets/avatars/male//5.jpg"
+                            alt=""
+                          />
+                          <div class="font-semibold text-black">
+                            <div>Girish Bansode</div>
+                            <div class="text-sm text-[#BCC2D2] ">
+                              UX Designer
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Fulltime
+                        </a>
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Intermediate
+                        </a>
+                      </nav>
+
+                      <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
+                        Kurla, Mumbai
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-3 py-2 md:py-2 bg-white rounded-lg">
+                    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                        <div class="flex items-center space-x-4">
+                          <img
+                            class="w-10 h-10 rounded-full"
+                            src="https://xsgames.co/randomusers/assets/avatars/female//6.jpg"
+                            alt=""
+                          />
+                          <div class="font-semibold text-black">
+                            <div>Arundhati Khopade</div>
+                            <div class="text-sm text-[#BCC2D2] ">Analyst</div>
+                          </div>
+                        </div>
+                      </a>
+                      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Fulltime
+                        </a>
+                        <a class="mr-5 bg-gray-200 rounded text-black p-1 font-semibold">
+                          Intermediate
+                        </a>
+                      </nav>
+
+                      <div class="inline-flex items-center py-1 px-3 text-[#484B51] font-bold rounded text-base mt-4 md:mt-0">
+                        Bangalore
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
