@@ -1,9 +1,16 @@
 import { AiOutlineSearch } from "react-icons/ai";
 import Link from "next/link";
+import Head from "next/head";
 export default function Search() {
   return (
     <>
       <div>
+      <Head>
+                <title>ConnectCorp | Search</title>
+                <meta charSet='utf-8' />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></link>
+            </Head>
         <nav class="bg-white">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">

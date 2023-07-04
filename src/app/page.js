@@ -1,9 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 export default function Home() {
   return (
     <>
       <div>
+        <Head>
+          <title>ConnectCorp | Home</title>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+          ></link>
+        </Head>
         <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
           <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
             <header class="text-gray-600 body-font">
@@ -13,12 +26,12 @@ export default function Home() {
                 </span>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center gap-3">
                   <Link href="login">
-                    <button class="inline-flex items-center font-semibold bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                    <button class="inline-flex items-center font-semibold  bg-gray-100 border-0 py-1 px-3 rounded text-base mt-4 md:mt-0">
                       Login
                     </button>
                   </Link>
                   <Link href="register">
-                    <button class="inline-flex items-center font-semibold bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                    <button class="inline-flex text-white items-center font-semibold bg-[#7C3AED] border-0 py-1 px-3 rounded text-base mt-4 md:mt-0">
                       Signup
                     </button>
                   </Link>
