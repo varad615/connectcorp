@@ -12,12 +12,16 @@ export default function Home() {
                   ConnectCorp
                 </span>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center gap-3">
-                  <button class="inline-flex items-center font-semibold bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-                    Login
-                  </button>
-                  <button class="inline-flex items-center font-semibold bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-                    Signup
-                  </button>
+                  <Link href="login">
+                    <button class="inline-flex items-center font-semibold bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                      Login
+                    </button>
+                  </Link>
+                  <Link href="register">
+                    <button class="inline-flex items-center font-semibold bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                      Signup
+                    </button>
+                  </Link>
                 </nav>
               </div>
             </header>
@@ -33,12 +37,12 @@ export default function Home() {
                 </p>
 
                 <div class="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-                  <a
-                    href="#"
+                  <Link
+                    href="/search"
                     class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
                   >
                     Search Now
-                  </a>
+                  </Link>
                 </div>
               </div>
 
