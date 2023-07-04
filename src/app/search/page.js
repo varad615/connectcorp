@@ -6,7 +6,7 @@ export default function Search() {
       <div>
         <nav class="bg-white">
           <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <a href="/" class="flex items-center">
               <span class="self-center text-2xl font-semibold whitespace-nowrap text-[#7C3AED]">
                 ConnectCorp
               </span>
